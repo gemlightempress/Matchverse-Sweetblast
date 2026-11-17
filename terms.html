@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Terms of Service — Matchverse: Sweet Blast</title>
+<meta name="description" content="The terms that apply when you download and play Matchverse: Sweet Blast.">
+<link rel="icon" href="../assets/icon-192.png">
+<link rel="stylesheet" href="style.css">
+<script>
+  /* Inside the game (opened from Settings): hide the site header with its page
+     links and the footer, and show the Home button. The game adds ?inapp=1 to
+     the address; being inside a frame counts too. On the website the header
+     links show as usual. */
+  (function(){
+    var inApp = /[?&]inapp=1\b/.test(location.search);
+    try { if (window.self !== window.top) inApp = true; } catch (e) { inApp = true; }
+    if (!inApp) return;
+    document.documentElement.classList.add('embedded');
+    // links to the other legal pages keep the in-game mode
+    document.addEventListener('DOMContentLoaded', function(){
+      var links = document.querySelectorAll('a[href$=".html"]');
+      for (var i = 0; i < links.length; i++) {
+        var h = links[i].getAttribute('href');
+        if (h && !/^[a-z]+:/i.test(h)) links[i].setAttribute('href', h + '?inapp=1');
+      }
+    });
+  })();
+</script>
+</head>
+<body>
+
+<button class="home-fab" onclick="window.parent.postMessage('matchverse-go-home', '*')" aria-label="Home"></button>
+
+<div class="top">
+  <div class="wrap">
+    <header class="site">
+      <a href="index.html" class="brand">
+        <img class="brand-mark" src="../assets/icon-192.png" alt="Matchverse: Sweet Blast icon">
+        <span class="brand-name">Matchverse</span>
+      </a>
+      <nav class="site" aria-label="Legal pages">
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Help &amp; Support</a>
+      <a href="terms.html" class="current" aria-current="page">Terms of Service</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow"><span class="tile"></span> Legal</div>
+      <h1>Terms of Service</h1>
+      <p class="lede">The terms that apply when you download and play Matchverse: Sweet Blast.</p>
+      <p class="meta">Last updated: November 2026</p>
+    </section>
+  </div>
+</div>
+
+<main class="content">
+  <div class="wrap">
+
+    <h2>Acceptance of Terms</h2>
+    <p>By downloading, installing, or playing Matchverse: Sweet Blast, you agree to these Terms of Service. If you do not agree, please do not use the Game.</p>
+
+    <div class="section-divider"><span></span><span></span><span></span></div>
+
+    <h2>License</h2>
+    <p>Gemlight Empress grants you a limited, non-exclusive, non-transferable, and revocable license to install and play the Game on devices that you own or control.</p>
+    <p>This license is provided for your personal, non-commercial entertainment only.</p>
+
+    <h2>In-Game Currency &amp; Items</h2>
+    <p>Delights, boosters (Chocostick Rocket, Rainbow Marshmallow Bomb, Dates &amp; Nuts Truffle, Magic Straw, Toffee Mallet, Scraper and Candy Whisk), lives, unlimited-lives time, and other in-game items have no real-world monetary value.</p>
+    <p>New players start with two of each booster, and a first-time tutorial walks through matching candies, making specials and using boosters.</p>
+    <p>These items:</p>
+    <ul>
+      <li>Cannot be exchanged for real money.</li>
+      <li>Cannot be transferred, sold, or given to another person.</li>
+      <li>Exist only within the Game.</li>
+      <li>Do not represent real currency or property.</li>
+    </ul>
+    <p>We may adjust, modify, or remove in-game items when necessary, including to correct errors, address technical issues, or balance and improve the Game.</p>
+    <p>You may also erase your in-game items and progress yourself by using &ldquo;Reset Progress&rdquo; in Settings.</p>
+
+    <h2>In-App Purchases</h2>
+    <p>You may purchase Delights using real money through Google Play. Delights are sold in fixed packs, and the price shown at checkout includes any taxes Google applies for your country.</p>
+    <p>All purchases are processed through Google Play Billing and are subject to Google&rsquo;s applicable terms, conditions, and payment policies.</p>
+    <p>Purchases are delivered to the account or device used to make the purchase.</p>
+    <p>Except where required by applicable law, purchases are final and non-refundable. Refund requests are handled according to Google&rsquo;s applicable Google Play refund policies.</p>
+    <p>If your progress is erased using &ldquo;Reset Progress&rdquo;, by clearing the Game&rsquo;s data, or by uninstalling the Game, any associated in-game progress and purchased Delights may also be lost and cannot necessarily be restored.</p>
+
+    <h2>Advertising</h2>
+    <p>The Game is free to play and is supported by advertising through Google AdMob.</p>
+    <p>Advertisements may include:</p>
+    <ul>
+      <li>Banner advertisements in a reserved strip at the bottom of the screen, on every screen including during a level. The strip never covers the playing board.</li>
+      <li>Full-screen advertisements shown between levels.</li>
+      <li>Optional rewarded advertisements that you can choose to watch for a bonus: extra moves to continue when you run out of moves, your second and third Lucky Spin of the day, a free booster when you have run out of one, or an extra life when you have run out of lives.</li>
+    </ul>
+    <p>A reward is given only when a rewarded advertisement is watched to the end. In the European Economic Area, the United Kingdom and Switzerland, Google&rsquo;s consent form is shown before ads load, and personalised advertising can be turned off at any time in your device&rsquo;s advertising settings.</p>
+    <p>Advertisements are provided by Google and third-party advertisers. The availability, frequency, and content of advertisements are not guaranteed.</p>
+
+    <h2>Google Play Games &amp; Cloud Save</h2>
+    <p>Signing in with Google Play Games is optional and the Game is fully playable without it, offline included. The Game attempts to sign in quietly in the background when it starts; if that does not succeed you continue as a guest, and you can sign in later with &ldquo;Sync Now&rdquo; in Settings.</p>
+    <p>If you sign in, your game progress may be backed up to Google Play Games Cloud Save, subject to Google&rsquo;s applicable terms and policies.</p>
+    <p>Using &ldquo;Reset Progress&rdquo; also replaces your Cloud Save with a fresh start.</p>
+    <p>Gemlight Empress is not responsible for data loss caused by Google service outages, Google account issues, device problems, connectivity issues, or other circumstances outside our reasonable control.</p>
+
+    <h2>Intellectual Property</h2>
+    <p>The Game and its content, including its:</p>
+    <ul>
+      <li>Artwork</li>
+      <li>Characters</li>
+      <li>Music</li>
+      <li>Sounds</li>
+      <li>Text</li>
+      <li>Graphics</li>
+      <li>Software</li>
+      <li>Other game content</li>
+    </ul>
+    <p>are owned by Gemlight Empress or its licensors and are protected.</p>
+    <p>These Terms do not grant you any ownership rights in the Game or its content.</p>
+
+    <h2>Prohibited Conduct</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse-engineer, decompile, disassemble, or modify the Game&rsquo;s code or save data.</li>
+      <li>Use cheats, automated tools, bots, exploits, or other unauthorized methods to gain an unfair advantage.</li>
+      <li>Use unauthorized methods to obtain in-game items without paying for them.</li>
+      <li>Interfere with or attempt to disrupt the operation of the Game or its services.</li>
+      <li>Use the Game in any way that violates applicable laws or regulations.</li>
+    </ul>
+
+    <h2>Eligibility</h2>
+    <p>The Game is intended for a general audience. If you are below the age of majority where you live, you may use the Game only with the involvement of a parent or guardian, and any purchase must be made with their permission and with the account holder&rsquo;s consent.</p>
+
+    <h2>Termination</h2>
+    <p>We may suspend or terminate access to the Game for violation of these Terms.</p>
+
+    <h2>Disclaimer of Warranties</h2>
+    <p>The Game is provided &ldquo;as is&rdquo; without warranties of any kind, express or implied, including but not limited to fitness for a particular purpose, non-infringement, and uninterrupted or error-free operation.</p>
+
+    <h2>Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Gemlight Empress is not liable for any indirect, incidental, or consequential damages arising from your use of the Game, including loss of progress or in-game items.</p>
+
+    <h2>Governing Law</h2>
+    <p>These Terms are governed by the laws of India, without regard to conflict-of-law rules. Nothing in these Terms removes any right you have under the mandatory consumer law of the country you live in.</p>
+
+    <h2>Changes to These Terms</h2>
+    <p>We may update these Terms periodically. Continued use of the Game after changes take effect constitutes acceptance of the revised Terms.</p>
+    <p>If you do not agree with the updated Terms, please stop using the Game.</p>
+
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <div class="tile-row"><span style="background:var(--coral)"></span><span style="background:var(--gold)"></span><span style="background:var(--mint)"></span></div>
+      <div>
+        <p><strong>Questions about these Terms of Service?</strong></p>
+        <p><strong>Gemlight Empress</strong><br>Email: <a href="mailto:support@gemlightempress.com">support@gemlightempress.com</a></p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+<footer class="site">
+  <div class="wrap footer-inner">
+    <div class="foot-brand"><img src="../assets/icon-192.png" alt=""><span>&copy; 2026 Gemlight Empress. All rights reserved.</span></div>
+    <nav class="foot-links" aria-label="Footer">
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Help &amp; Support</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
